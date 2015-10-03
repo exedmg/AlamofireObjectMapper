@@ -146,7 +146,7 @@ Alamofire.request(.GET, URL, parameters: nil)
 #Installation
 AlamofireObjectMapper can be added to your project using [Cocoapods](https://cocoapods.org/) by adding the following line to your Podfile:
 ```
-pod 'AlamofireObjectMapper', '~> 1.0'
+pod 'AlamofireObjectMapper', :git => 'https://github.com/exedmg/AlamofireObjectMapper.git', :branch => 'patch-1'
 ```
 
 If your using [Carthage](https://github.com/Carthage/Carthage) you can add a dependency on AlamofireObjectMapper by adding it to your Cartfile:
